@@ -20,6 +20,7 @@ plugins=(
 	aws
 	docker
 	git
+	zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh

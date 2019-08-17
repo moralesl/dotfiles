@@ -13,6 +13,7 @@ brew 'jq'
 brew 'thefuck'
 brew 'tree'
 brew 'zsh'
+brew 'zsh-autosuggestions'
 
 # Apps
 cask 'atom'
