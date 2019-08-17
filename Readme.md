@@ -4,6 +4,13 @@ This repository contains my Dotfiles and anything I use to setup and maintain my
 
 ## Usage
 
+Clone repository
+```
+cd ~
+mkdir .dotfiles
+git clone https://github.com/moralesl/dotfiles .dotfiles
+```
+
 Run setup
 ```
 ./setup.sh
@@ -11,8 +18,8 @@ Run setup
 
 ## Structure
 
-* `setup.sh`:     Starting point
-* `Brewfile`:     All brew bundles that need to installed
+* `setup.sh`:     Setup script
+* `Brewfile`:     All brew bundles that need to be installed
 * `.zshrc`:       Zsh configurations
 * `aliases.zsh`:  Aliases that can be used inside the zsh
 * `.macos`:       MacOs Preference Overwrites
