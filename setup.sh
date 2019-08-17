@@ -28,7 +28,7 @@ OH_MY_ZSH_DIR=$HOME/.oh-my-zsh
 DOTFILES=$HOME/.dotfiles
 
 echo "Make ZSH the default shell environment if it is not the default already"
-if [ $SHELL != "/bin/zsh" ]; then
+if [ $SHELL != "/bin/zsh" ] && [ $SHELL != "/usr/local/bin/zsh" ]; then
 	sudo echo "$(which zsh)" >> /etc/shells;
 	chsh -s $(which zsh);
 else
