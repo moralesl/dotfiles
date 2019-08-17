@@ -1,12 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
-ZSHRC_FILE=$HOME/.zshrc
-OH_MY_ZSH_DIR=$HOME/.oh-my-zsh
-DOTFILES=$HOME/.dotfiles
-
 echo "Setting up your Mac..."
 
+
+##############################################################################################################
+### homebrew
 echo "Check for Homebrew and install if we don't have it"
 if [ ! $(which brew) ]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -18,6 +17,15 @@ brew update
 echo "Install all dependencies with bundle (See Brewfile)"
 brew tap homebrew/bundle
 brew bundle
+### end of homebrew
+##############################################################################################################
+
+
+##############################################################################################################
+### oh-my-zsh
+ZSHRC_FILE=$HOME/.zshrc
+OH_MY_ZSH_DIR=$HOME/.oh-my-zsh
+DOTFILES=$HOME/.dotfiles
 
 echo "Make ZSH the default shell environment if it is not the default already"
 if [ $SHELL != "/bin/zsh" ]; then
@@ -40,6 +48,9 @@ ln -s $DOTFILES/.zshrc $ZSHRC_FILE
 
 echo "Reloading shell"
 source $OH_MY_ZSH_DIR/oh-my-zsh.sh
+### end of oh-my-zsh
+##############################################################################################################
+
 
 echo "Set macOs preferences"
 source .macos
