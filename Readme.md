@@ -8,7 +8,7 @@ Clone repository
 ```
 cd ~
 mkdir .dotfiles
-git clone https://github.com/moralesl/dotfiles .dotfiles
+git clone --recurse-submodule https://github.com/moralesl/dotfiles .dotfiles
 ```
 
 Run setup
