@@ -40,3 +40,6 @@ ln -s $DOTFILES/.zshrc $ZSHRC_FILE
 
 echo "Reloading shell"
 source $OH_MY_ZSH_DIR/oh-my-zsh.sh
+
+echo "Set macOs preferences"
+source .macos
