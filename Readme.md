@@ -13,6 +13,7 @@ git clone https://github.com/moralesl/dotfiles .dotfiles
 
 Run setup
 ```
+cd .dotfiles
 ./setup.sh
 ```
 
