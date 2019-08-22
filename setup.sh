@@ -45,9 +45,6 @@ fi
 echo "Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles"
 rm -rf $ZSHRC_FILE
 ln -s $DOTFILES/.zshrc $ZSHRC_FILE
-
-echo "Reloading shell"
-source $OH_MY_ZSH_DIR/oh-my-zsh.sh
 ### end of oh-my-zsh
 ##############################################################################################################
 
