@@ -5,3 +5,7 @@ sudo -v
 
 # Show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
