@@ -7,4 +7,11 @@ alias reloadcli="source $HOME/.zshrc"
 alias dotfiles="cd $DOTFILES"
 alias workspace="cd $HOME/workspace"
 
+# Directory traversal
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
 eval $(thefuck --alias)
