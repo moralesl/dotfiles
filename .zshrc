@@ -24,3 +24,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+export PATH=$HOME/.toolbox/bin:$PATH
+
