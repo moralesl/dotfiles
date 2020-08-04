@@ -14,4 +14,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
+# TheFuck
 eval $(thefuck --alias)
+alias fu=fuck
+
