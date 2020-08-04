@@ -25,3 +25,5 @@ alias dkr-rm-all-containers='docker rm $(docker ps -aq)'
 alias dkr-rm-all-images='docker rmi $(docker images -q)'
 alias dkr-clean-up='docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q)'
 
+# GGP
+alias ggp='java -jar $HOME/workspace/sandbox/ggp/aws-greengrass-provisioner/build/libs/AwsGreengrassProvisioner.jar'
