@@ -20,6 +20,7 @@ ZSH_CUSTOM=$DOTFILES
 plugins=(
 	aws
 	docker
+	kubectl
 	git
 	zsh-autosuggestions
 )
