@@ -33,3 +33,4 @@ export PATH=$HOME/.toolbox/bin:$PATH
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+eval "$(pyenv init -)"
