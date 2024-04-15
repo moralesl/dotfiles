@@ -30,3 +30,7 @@ alias ggp='java -jar $HOME/workspace/sandbox/ggp/aws-greengrass-provisioner/buil
 
 # PPTX
 alias fix-pptx='python3 /Users/lluim/workspace/utils/scripts/remove_unused_slide_layouts/remove_unused_slide_layouts.py'
+
+# EZA
+alias ls="eza"
+alias la="eza -la"
