@@ -27,3 +27,6 @@ alias dkr-clean-up='docker stop $(docker ps -aq) || docker rm $(docker ps -aq) |
 
 # GGP
 alias ggp='java -jar $HOME/workspace/sandbox/ggp/aws-greengrass-provisioner/build/libs/AwsGreengrassProvisioner.jar'
+
+# PPTX
+alias fix-pptx='python3 /Users/lluim/workspace/utils/scripts/remove_unused_slide_layouts/remove_unused_slide_layouts.py'
